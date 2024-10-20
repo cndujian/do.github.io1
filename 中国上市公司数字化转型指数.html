@@ -20,26 +20,21 @@
         h1, p {
             margin: 10px;
         }
-        .form-container {
-            width: 100%;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 10px;
+        .button-container {
+            margin-top: 20px;
         }
-        iframe {
-            width: 100%;
-            height: 500px;
+        .btn {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
             border: none;
-            border-radius: 8px;
-            transition: all 0.3s;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
         }
-        .content-container {
-            padding: 20px 10px; /* 调整padding，减少空白 */
-        }
-        @media (max-width: 600px) {
-            iframe {
-                height: 400px;
-            }
+        .btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -48,9 +43,11 @@
         <h1>营商环境数据</h1>
         <p>数据构建过程请见我们的报告：《中国城市政商关系评价报告2023》</p>
         <p>填写表单，我们会尽快审核并通过邮件发送数据：</p>
-	<p><a href="https://f.wps.cn/ksform/w/write/vIXqUn1f#routePromt" target="_blank">点击这里填写表单</p >
+        <div class="button-container">
+            <a class="btn" href="https://f.wps.cn/ksform/w/write/vIXqUn1f#routePromt" target="_blank">点击这里填写表单</a>
+        </div>
     </div>
-   
 </body>
 </html>
+
 
